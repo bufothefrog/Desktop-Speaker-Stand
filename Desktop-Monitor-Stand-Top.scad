@@ -1,0 +1,33 @@
+//Attach Point
+scale([1,1,1])
+translate([75,90,12])
+{
+    translate([-10,-10,0])
+        cylinder(15,5,4.5);
+    translate([-10,10,0])
+        cylinder(15,5,4.5);
+    translate([10,-10,0])
+        cylinder(15,5,4.5);
+    translate([10,10,0])
+        cylinder(15,5,4.5);
+    $fn=250;
+}
+//Base
+scale([1,1,1])
+translate([10,10,0])
+{
+    difference()
+    {
+        minkowski()
+        {
+          cube([60,60,1]);
+          translate([30,30,0])
+            cylinder(1,30,30); translate([5,5,5])
+                sphere(r=5);
+          $fn=100;
+        }
+        translate([65,130,10.5])
+        rotate([90,0,0])
+            cylinder(30,3,3);
+        }
+}
