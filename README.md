@@ -17,4 +17,4 @@ Rubber feet are optional as the stand does not slide much on a standard Ikea woo
 The following are planned in no particular order:
 - Utilize variables to quickly change the size of the cable channel
 - Utilize variables to quickly switch between different base and center shapes
-- Optimize corner rounding to remove the necessity of supports
+- ~~Optimize corner rounding to remove the necessity of supports~~
