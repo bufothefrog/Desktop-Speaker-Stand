@@ -22,7 +22,7 @@ The following are planned in no particular order:
 - ~~Optimize corner rounding to remove the necessity of supports~~
 
 ## Support Me?
-If you would like to purchase this as a finished product, you can off of my ![Etsy page](https://www.etsy.com/listing/1011864457/minimalist-desktop-speaker-stand-set-of?frs=1)
+If you would like to purchase this as a finished product, you can off of my ![Etsy page](https://www.etsy.com/listing/1011864457/minimalist-desktop-speaker-stand-set-of?frs=1).
 # Donations
 - ![Paypal](https://www.paypal.com/paypalme/jonathanmlewin)
 - Bitcoin (BTC): bc1qvnveztqqggj0cgw4tqdwde3gspmwxp555vfhep
