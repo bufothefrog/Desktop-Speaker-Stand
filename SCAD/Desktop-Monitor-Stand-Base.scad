@@ -1,48 +1,74 @@
 //Base
-scale([1,1,1])
 difference()
 {
     minkowski()
     {
-      cube([80,80,1]);
-      translate([30,30,0])
-        cylinder(1,30,30); translate([5,5,5])
+        minkowski()
+        {
+            cube([80,80,1]);
+            translate([30,30,0])
+                cylinder(1,30,30);
+            $fn=250;
+        }
+        translate([5,5,5])
             sphere(r=5);
-      $fn=100;
+        $fn=8;
     }
-    translate([75,150,10.5])              //<-------
+    translate([75,150,10.5])            //<-------Cable Channel
     {
-    rotate([90,0,0])
-    cylinder(40,3,3);
-    }
+        rotate([90,0,0])
+            cylinder(40,3,3);
     $fn=100;
+    }
+    translate([20,20,-5])
+        minkowski()
+        {
+            cylinder(1,3,3);
+            cube([9,9,9]);
+        }
+    translate([120,20,-5])
+        minkowski()
+        {
+            cylinder(1,3,3);
+            cube([9,9,9]);
+        }
+    translate([20,120,-5])
+        minkowski()
+        {
+            cylinder(1,3,3);
+            cube([9,9,9]);
+        }
+    translate([120,120,-5])
+        minkowski()
+        {
+            cylinder(1,3,3);
+            cube([9,9,9]);
+        }
 }
 //Column
-scale([1,1,1])
 difference()
 {
-    translate([75,90,0])
-        cylinder(160,25,25);
-        $fn=250;
-    translate([75,113.5,0])             //<-------
+    translate([75,90,1])
+        cylinder(150,25,25);
+    translate([75,113.5,0])             //<-------Cable Channel
         cylinder(175,3,3);
+    $fn=250;
 }
 //Attach Point
-scale([1,1,1])
-translate([75,90,160])
+translate([75,90,151])
 {
     difference()
         {
-        cylinder(15,25,25);
+        cylinder(25,25,25);
         translate([-10,-10,0])
-            cylinder(15,5,5);
+            cylinder(25,5.1,5.1);
         translate([-10,10,0])
-            cylinder(15,5,5);
+            cylinder(25,5.1,5.1);
         translate([10,-10,0])
-            cylinder(15,5,5);
+            cylinder(25,5.1,5.1);
         translate([10,10,0])
-            cylinder(15,5,5);
-        translate([0,23.5,0])           //<-------
+            cylinder(25,5.1,5.1);
+        translate([0,23.5,0])           //<-------Cable Channel
             cylinder(175,3,3);
         $fn=250;
         }
