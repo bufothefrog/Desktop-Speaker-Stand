@@ -10,8 +10,8 @@
 There are also 8 printable TPU anti-vibration feet that will reduce the vibrations and help the stand stay steady.
 
 ## Print Instructions
-**Special Instructions:** Make sure Desktop-Monitor-Stand-Top is printed with the pins facing upwards. Supports will be necessary to ensure proper rounding of the edges for both models.
-Rubber feet are optional as the stand does not slide much on a standard Ikea wood desk. For added weight, you can poke a hole at the top of Desktop-Monitor-Stand-Top and fill it with a fine sand. A gyroid infill pattern allows it to be mostly filled with enough tapping and patience.
+**Special Instructions:** Make sure Desktop-Monitor-Stand-Top is printed with the pins facing upwards. Support are not needed for this model.
+For added weight, you can poke a hole at the top of Desktop-Monitor-Stand-Top and fill it with a fine sand. A gyroid infill pattern allows it to be mostly filled with enough tapping and patience.
 - Originally printed on a Prusa Mini+ using black eSun PLA+ filament
 - Sliced in PrusaSlicer with 0.2mm layer height, supports everywhere, 15% gyroid infill.
 
