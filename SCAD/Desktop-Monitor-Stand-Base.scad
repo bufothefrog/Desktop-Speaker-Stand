@@ -44,6 +44,7 @@ difference()
             cylinder(1,3,3);
             cube([9,9,9]);
         }
+    $fn=100;
 }
 //Column
 difference()
