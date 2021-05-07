@@ -10,15 +10,19 @@
 There are also 8 printable TPU anti-vibration feet that will reduce the vibrations and help the stand stay steady.
 
 ## Print Instructions
-**Special Instructions:** Make sure Desktop-Monitor-Stand-Top is printed with the pins facing upwards. Support are not needed for this model.
+**Special Instructions:** Make sure Desktop-Monitor-Stand-Top is printed with the pins facing upwards. Support are not needed for this model. The anti-vibration pads and feet can both be printed in full sets of 8 (or 4 if not printing a pair) when properly spaced. I would recommend setting the slicer to finish one at a time as it results in overall better quality. 
 For added weight, you can poke a hole at the top of Desktop-Monitor-Stand-Top and fill it with a fine sand. A gyroid infill pattern allows it to be mostly filled with enough tapping and patience.
-- Originally printed on a Prusa Mini+ using black eSun PLA+ filament
-- Sliced in PrusaSlicer with 0.2mm layer height, supports everywhere, 15% gyroid infill.
+- Originally printed on a Prusa Mini+ using the standard 0.40mm nozzle
+- Base and Top are both printed using black eSun PLA Pro filament
+- Anti-Vibration Pads and Feet are printed using black Inland TPU filament
+- Sliced in PrusaSlicer with 0.2mm layer height, 15% gyroid infill.
 
 ## Planned Updates
 The following are planned in no particular order:
 - Utilize variables to quickly change the size of the cable channel
 - Utilize variables to quickly switch between different base and center shapes
+- Remove ALL hard coded values
+- Clean code
 - ~~Optimize corner rounding to remove the necessity of supports~~
 
 ## Support Me?
