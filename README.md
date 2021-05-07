@@ -24,7 +24,7 @@ The following are planned in no particular order:
 ## Support Me?
 If you would like to purchase this as a finished product, you can off of my ![Etsy page](https://www.etsy.com/listing/1011864457/minimalist-desktop-speaker-stand-set-of?frs=1).
 # Donations
-- Paypal: https://www.paypal.com/paypalme/jonathanmlewin
+- Paypal: paypal.me/jonathanmlewin
 - Bitcoin (BTC): bc1qvnveztqqggj0cgw4tqdwde3gspmwxp555vfhep
 - Ethereum (ETH): 0x5fc061634dDf4F5A9fF8407Ca3DeB3c162e4af87
 - Monero (XMR): 8ATTs9ASUqPBr8Uj3HoiMU6CKUC24mB5VPbtqcnMk219fKKJ3qc5z4y7MZVCQ7ismVCjccDMVRSowBqfA6WgYzex9XTPbFw
